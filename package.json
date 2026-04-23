@@ -1,13 +1,10 @@
 {
-  "name": "multiplayer-prototype",
+  "name": "room-game-frontend",
   "version": "1.0.0",
-  "description": "Simple multiplayer lobby with rooms and chat",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.7.2"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "zustand": "^4.0.0"
   }
 }
